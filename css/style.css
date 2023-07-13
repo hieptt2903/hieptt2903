@@ -1,115 +1,179 @@
-body{
+body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
 }
-a{
+
+a {
     color: #333;
     text-decoration: none;
     font-weight: bold;
 }
-a:hover{
+
+a:hover {
     color: #369;
 }
-.row{
+
+.row {
     float: left;
     width: 100%;
 }
 
-.top{
+.top {
     min-height: 20px;
     border-bottom: 1px #CCC solid;
     padding: 5px 0px;
 }
 
-.recentnew{
-    background-color:#999;
+.content {}
+
+.recentnew {
+    background-color: #999;
     min-height: 200px;
 }
-.footer{
-    background-color:#CCC;
+
+.footer {
+    background-color: #CCC;
     min-height: 200px;
 }
-.boxcenter{
+
+.boxcenter {
     width: 55%;
     margin: 0 auto;
 }
-.mrtb{
+
+.mrtb {
     margin: 10px 0px;
 }
-.mr{
+
+.mr {
     margin-right: 2%;
 }
 
-.boxleft{
+.boxleft {
     float: left;
     width: 25%;
 
 }
-.boxmid{
+
+.boxmid {
     float: left;
     width: 46%;
 }
-.bgc{
+
+.bgc {
     background-color: aqua;
 }
-.boxnew1, .boxew2{
-   padding-bottom: 15px; 
-   margin-bottom: 15px;
+
+.boxnew1, .boxew2 {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
-.boxnew1 img{
+
+.boxnew1 img {
     width: 40%;
     margin-right: 10px;
     float: left;
-} 
-
-.brott{
-    border-bottom: #333  1px solid;
 }
-.lastnew img, .boxew2 img{
+
+.brott {
+    border-bottom: #333 1px solid;
+}
+
+.lastnew img, .boxew2 img {
     width: 100%;
 }
-.lastnew a{
+
+.lastnew a {
     color: #333;
     text-decoration: none;
     font-weight: bold;
     font-size: 24pt;
 }
-.lastnew a:hover{
+
+.lastnew a:hover {
     color: #369;
 }
-p{
-    line-height: 130%;
+
+p {
+    line-height: 110%;
 }
+
 .boxright {
     float: left;
     width: 25%;
 }
-.mrb{
+
+.mrb {
     margin-bottom: 30px;
 }
-.mrb20{
+
+.mrb20 {
     margin-bottom: 20px;
 }
-.hdemo{
+
+.hdemo {
     min-height: 100px;
 }
-.boxcnter2{
-    width: 55%;
-    margin: 0 auto;
+
+.bgboxcenter2 {
+    float: left;
+    width: 96%;
     padding: 2%;
     background-color: #ffde76;
     min-height: 400px;
 }
-.col6{
+
+.boxcenter2 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.col6 {
     float: left;
     width: 48%;
 }
-.col3{
+
+.col3 {
     float: left;
     width: 24%;
 }
-.col3-1{
-    float:left;
+
+.col3-1 {
+    float: left;
     width: 23%;
+}
+
+.col3 img, .col3-1 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.boxmuti6 {
+    position: relative;
+}
+
+.boxmuti6 img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.bggra {
+    position: absolute;
+    width: 94%;
+    bottom: 0;
+    left: 0%;
+    padding: 3%;
+    /*background-color: rgba(0, 0, 0, 0.5); Tô màu trong suốt*/
+     background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 1));
+}
+
+.boxmuti6 a {
+    font-size: 24px;
+    color: white;
+    line-height: 110%;
+    text-shadow: 3px 3px 6px #000;
 }
