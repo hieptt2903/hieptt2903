@@ -21,10 +21,7 @@ a:hover{
     border-bottom: 1px #CCC solid;
     padding: 5px 0px;
 }
-.content{
-    background-color:#EEE;
-    min-height: 700px;
-}
+
 .recentnew{
     background-color:#999;
     min-height: 200px;
@@ -34,7 +31,7 @@ a:hover{
     min-height: 200px;
 }
 .boxcenter{
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
 }
 .mrtb{
@@ -43,9 +40,7 @@ a:hover{
 .mr{
     margin-right: 2%;
 }
-.minh {
-    min-height: 600px;
-}
+
 .boxleft{
     float: left;
     width: 25%;
@@ -90,4 +85,31 @@ p{
     float: left;
     width: 25%;
 }
-
+.mrb{
+    margin-bottom: 30px;
+}
+.mrb20{
+    margin-bottom: 20px;
+}
+.hdemo{
+    min-height: 100px;
+}
+.boxcnter2{
+    width: 55%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: #ffde76;
+    min-height: 400px;
+}
+.col6{
+    float: left;
+    width: 48%;
+}
+.col3{
+    float: left;
+    width: 24%;
+}
+.col3-1{
+    float:left;
+    width: 23%;
+}
