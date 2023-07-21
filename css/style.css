@@ -45,9 +45,11 @@ a:hover {
 .mrtb {
     margin: 10px 0px;
 }
-.paddtb{
+
+.paddtb {
     padding: 30px 0px;
 }
+
 .mr {
     margin-right: 2%;
 }
@@ -189,35 +191,43 @@ p {
     float: left;
     width: 30%;
 }
-.boxnewsdm p{
+
+.boxnewsdm p {
     color: #999;
 }
-.boxnewsdm p span{
+
+.boxnewsdm p span {
     font-size: 10px;
 }
-.boxnewsdm p a{
+
+.boxnewsdm p a {
     font-size: 10px;
     color: #666;
 }
-p{
+
+p {
     margin: 5px;
 }
-.mrbox{
+
+.mrbox {
     padding-left: 30px;
 }
-.boxmaga{
+
+.boxmaga, .boxdm {
     float: left;
     width: 23.5%;
-    min-height: 250px;
+    min-height: 350px;
     position: relative;
-    }
-.boxmaga img{
-    width: 100%;
-    height: 250px;
+}
+
+.boxmaga img {
+    width: 90%;
+    height: 350px;
     object-fit: cover;
     display: block;
 }
-.tendm{
+
+.tendm {
     position: absolute;
     top: 0px;
     left: 30%;
@@ -229,7 +239,8 @@ p{
     font-size: 10pt;
     padding: 5px 0px;
 }
-.tentin{
+
+.tentin {
     position: absolute;
     bottom: 0px;
     left: 0;
@@ -239,14 +250,16 @@ p{
     text-align: center;
     padding: 5%;
     min-height: 130px;
- }
- .tentin a{
+}
+
+.tentin a {
     color: white;
     font-size: 16px;
     font-family: serif;
     text-shadow: 1px 1px 5px #000;
- }
- .tentin .icontin{
+}
+
+.tentin .icontin {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -254,4 +267,4 @@ p{
     background-color: #ffde76;
     left: calc(50% - 15px);
     bottom: 20px;
- }
+}
